@@ -478,7 +478,7 @@ table tr:hover {
     padding: 20px 0px;
     padding-top: 36px;
     line-height: 1.5rem;
-    border-radius: 25px;    /* 边框弧度微圆角 */
+    border-radius: 20px;    /* 边框弧度微圆角 */
     font-size: 18px;
     font-weight: normal;
     word-wrap: normal;
@@ -530,7 +530,7 @@ tt {
     border-radius: 10px;
 	font-family:  Jetbrains Mono, Consolas, 'Microsoft YaHei', '微软雅黑', Times;
     font-size: 0.92rem;
-    font-weight: bold;
+    font-weight: normal;
     color: #1d9c7c;     /* 行代码字体颜色 */
 	background-color: #EBFFEB;  
 }
@@ -673,7 +673,7 @@ tt {
 .md-image img {
     /* border-radius: 4px; */
     box-shadow: 20px 15px 20px #949494;  /* 图片增加阴影 */
-    border-radius: 15px;
+    border-radius: 10px;
 	border: 0px;
 }
 
