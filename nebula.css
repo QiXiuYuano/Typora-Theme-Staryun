@@ -208,7 +208,7 @@ h1 {
     font-size: 2.25em;
     line-height: 1.2;
     /* border-bottom: 1px solid #d1d1d1; */
-    color: var(--main-10);
+    /* color: var(--main-10); */
     border-bottom: 2px solid var(--main-4);
 }
 
@@ -379,15 +379,6 @@ h6 p {
 }
 
 
-/* 引用 */
-blockquote {
-    border-left: 4px solid rgb(239, 112, 96);
-    padding: 10px 15px;
-    color: #2a2a2a;
-    background-color: #ffe0e0;	
-}
-
-
 /* 表格部分 */
 table {
     padding: 0;
@@ -437,6 +428,16 @@ table tr:hover {
     background-color: #e0f8f8;
 }
 
+/*-------------------------------- 常用功能分割线 --------------------------------------*/
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid rgb(239, 112, 96);
+    padding: 10px 15px;
+    color: #2a2a2a;
+    background-color: #fce6e6;	
+}
+
 
 /* 字体加粗 */
 #write strong {
@@ -448,7 +449,7 @@ table tr:hover {
 #write em {
     padding: 0 3px 0 3px;
     font-style: italic;
-    color: #65af7b;
+    color: #3cb15f;
     /* color: #595959;  #afa9ed   #181818
     background: #F6EEFF; */
 }
@@ -465,7 +466,7 @@ table tr:hover {
 /* 数学公式变蓝 */
 [md-inline='inline_math'] {
     color: #000000;
-    font-size: 110%;
+    font-size: 120%;
     
 }
 
@@ -476,9 +477,9 @@ table tr:hover {
     -webkit-font-smoothing: initial;
     margin: 0.5rem 0 !important;
     padding: 20px 0px;
-    padding-top: 36px;
+    padding-top: 40px;
     line-height: 1.5rem;
-    border-radius: 20px;    /* 边框弧度微圆角 */
+    border-radius: 23px;    /* 边框弧度微圆角 */
     font-size: 18px;
     font-weight: normal;
     word-wrap: normal;
@@ -502,9 +503,9 @@ table tr:hover {
 
 /* tooltip就是点击代码块之后，在右下角有一个小框（tooltip）提示这是什么语言*/
 .md-fences .code-tooltip {
-    border-radius: 10px;    /* 边框弧度微圆角 */
-    border: 1px solid #06c72d;
-    font-size: 18px;
+    border-radius: 12px;    /* 边框弧度微圆角#06c72d */
+    border: 1px solid #5cc571;
+    font-size: 16px;
     font-weight: normal;
 }
 
@@ -522,17 +523,17 @@ table tr:hover {
 }
 
 
-
 /* 行间代码 */
 #write code,
 tt {
     padding: 2px 4px;
-    border-radius: 10px;
+    border-radius: 9px;
 	font-family:  Jetbrains Mono, Consolas, 'Microsoft YaHei', '微软雅黑', Times;
     font-size: 0.92rem;
     font-weight: normal;
-    color: #1d9c7c;     /* 行代码字体颜色 */
-	background-color: #EBFFEB;  
+    
+    color: #006262;     /* 行代码字体颜色 #038564 #EBFFEB */
+	background-color: rgb(196 233 205 / 70%);   
 }
 
 tt {
@@ -673,7 +674,7 @@ tt {
 .md-image img {
     /* border-radius: 4px; */
     box-shadow: 20px 15px 20px #949494;  /* 图片增加阴影 */
-    border-radius: 10px;
+    border-radius: 15px;
 	border: 0px;
 }
 
@@ -801,10 +802,13 @@ footer {
     color: var(--main-5) !important;
 }
 
+.outline-item{
+    line-height: 1.2;
+}
 /* 侧边栏大纲鼠标悬浮背景色 */
 .outline-item:hover {
     color: var(--main-7) !important;
-    /* background-color: var(--active-file-bg-color); */
+    background-color: #faf0f0;
 }
 
 
