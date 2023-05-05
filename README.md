@@ -14,7 +14,7 @@
 
 ## 效果展示
 
-![image-20230504212033506](https://cdn.jsdelivr.net/gh/ZnhyGeWch/TyporaImageBed/img/202305042122774.png)
+![image-20230505214340225](https://cdn.jsdelivr.net/gh/ZnhyGeWch/TyporaImageBed/img/202305052143336.png)
 
 ![image-20230504212055808](https://cdn.jsdelivr.net/gh/ZnhyGeWch/TyporaImageBed/img/202305042122947.png)
 
