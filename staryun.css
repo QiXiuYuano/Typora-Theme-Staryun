@@ -64,8 +64,8 @@ html {
 
 /* 正文字体设置 */
 body {
-    /*font-family:  Consolas, 'Microsoft YaHei', '微软雅黑',  Times, ;*/
-	font-family:  Jetbrains Mono, Consolas, 'Microsoft YaHei', '微软雅黑',  Times;
+    /* font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif; */
+	font-family:  Jetbrains Mono, 'Microsoft YaHei',"Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
     font-weight: normal;
     color: black;
     -webkit-font-smoothing: antialiased;
@@ -96,7 +96,7 @@ body {
 
 #write p {
     line-height: 1.8rem;
-    word-spacing: -0.3em;   /* 控制空格间距间距 */
+    word-spacing: 0em;   /* 控制空格间距间距 */
     font-weight: regular;
     color: var(--body-text-color);
     margin: 0;
@@ -513,7 +513,8 @@ blockquote {
     font-size: 17px;
     font-weight: normal;
     word-wrap: normal;
-    font-family: Jetbrains Mono, Consolas,  'Microsoft YaHei', '微软雅黑', Times;
+    /* font-family: Jetbrains Mono, Consolas,  'Microsoft YaHei', '微软雅黑', Times; */
+    font-family:  Jetbrains Mono, 'Microsoft YaHei',"Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
 }
 
 /* 代码块主题加上MAC的三个图标 */
@@ -791,7 +792,7 @@ header,
 .context-menu,
 .megamenu-content,
 footer {
-    font-family: Jetbrains Mono, Consolas,  'Microsoft YaHei', '微软雅黑',  Times;   /* 侧栏字体 'Segoe UI', 'Arial', sans-serif; */
+    font-family: 'Segoe UI', 'Arial', sans-serif;
 }
 
 .file-node-content:hover .file-node-icon,
@@ -854,7 +855,8 @@ footer {
     }
     body {
         /* font-family: Consolas, 'Microsoft YaHei', '微软雅黑',  Times; */ 
-        font-family: Jetbrains Mono, Consolas,  'Microsoft YaHei', '微软雅黑',  Times;
+        /* font-family: Jetbrains Mono, Consolas,  'Microsoft YaHei', '微软雅黑',  Times; */
+        font-family:  Jetbrains Mono, 'Microsoft YaHei',"Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
         color: #000000!important;
     }
     p {
