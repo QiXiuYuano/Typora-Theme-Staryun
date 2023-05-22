@@ -1,5 +1,5 @@
 # Typora-Theme-Staryun
-这是一个受 redrail 主题启发 DIY 的 Typora 主题。
+这是一个受 gitHub 和 redrail 主题启发 DIY 的 Typora 主题。
 
 ## 安装主题
 
